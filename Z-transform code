@@ -1,0 +1,9 @@
+% define the system's independent variable(index) and tranformable variable(z)
+%% default independent variable(index) is n and defauly transformable variable is z
+syms k z
+
+% put a variable for the function, for example the function is 2^k in this case.
+f = 2^k
+
+% use z-transform to solve the function
+ztrans(f)
